@@ -1,0 +1,18 @@
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+}
+
+body {
+	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	z-index: 2;
+}
+
+.overlay {
+	background: url(img/img_1.jpg);
+	height: 580px; /* will need to fix the image size later */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
