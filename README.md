@@ -6,5 +6,6 @@ This webpage will function as a basic, single-page, Bootstrap 4 landing page des
 - index.html
 - style.css
 - script.js
+- /img img_{#}.jpg
 
 The general style and layout of this page is courtesy of one of the first project ideas on the p1xt-guides "job-ready-javascript-edition-3.0" here on GitHub.  If you're also a beginner like me, definitely search it and check out that guide if you haven't already.  It is already teaching me a lot of useful information!
