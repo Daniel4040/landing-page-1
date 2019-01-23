@@ -1,0 +1,22 @@
+{
+  "name": "landing-page-1",
+  "version": "1.0.0",
+  "description": "This webpage will function as a basic, single-page, Bootstrap 4 landing page designed to show off simple text and images to the viewer, such as general company information for a small business, using a clean and modern format. Developed in Jan '19 by Daniel Martin with no idea how to use GitHub, Git, the basic syntax formatting of .md files, etc. Let's see how my first project goes!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel4040/landing-page-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel4040/landing-page-1/issues"
+  },
+  "homepage": "https://github.com/Daniel4040/landing-page-1#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
