@@ -155,6 +155,27 @@ header.masthead .overlay {
   background-size: cover;
 }
 
+.section-2-img-2 {
+  background-image: url(img/stock-photo-2.jpeg);
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.section-2-img-3 {
+  background-image: url(img/stock-photo-3.jpeg);
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.section-3-img {
+  max-width: 12rem;
+  background-size: cover;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
 .no-gutters {
   margin-left: 0;
   margin-right: 0;
@@ -174,10 +195,31 @@ header.masthead .overlay {
   padding: 3rem;
 }
 
+.section-3-intro {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+  border-top-left-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+
+.section-3 .col-lg-4 {
+  padding-bottom: 8rem;
+}
+
+.img-fluid {
+  height: auto;
+}
+
 .contact-me {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: #2e2e2e;
+  background-color: #ffffff;
   text-align: center;
   text-transform: uppercase;
 }
