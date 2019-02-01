@@ -61,9 +61,9 @@ body {
   box-sizing: border-box;
 }
 
-div {
+/* div {
   display: block;
-}
+} */
 
 header.masthead {
   position: relative;
@@ -84,23 +84,19 @@ header.masthead .overlay {
   opacity: 0.3;
 }
 
-@media (min-width: 1200px) {
-  .section-1 .row {
-    max-width: 1140px;
-  }
-}
-/* @media (min-width: 992px) .container {
-  
-  max-width: 960px;
-}
-@media (min-width: 768px) .container {
-  max-width: 720px;
-}
-@media (min-width: 576px) .container {
-  max-width: 540px;
-} */
-
 .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.container-fluid {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -111,15 +107,6 @@ header.masthead .overlay {
 .section-1 {
   padding-top: 8rem;
   padding-bottom: 8rem;
-}
-
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
 }
 
 .col-lg-4 {
@@ -134,14 +121,6 @@ header.masthead .overlay {
   padding-bottom: 15px;
 }
 
-.col-lg-4 {
-  -ms-flex: 0 0 33.333333%;
-  flex: 0 0 33.333333%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 33.3333%;
-  max-width: 33.333333%;
-}
 .iconify {
   color: #007bff;
   width: 5rem;
@@ -185,11 +164,44 @@ header.masthead .overlay {
   padding: 0 !important;
 }
 
+@media (min-width: 992px) {
+  .order-lg-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+/* @media (min-width: 992px) {
+  .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+} */
+
 @media (min-width: 768px) {
   .section-2 .section-2-text {
     padding: 7rem;
   }
 }
+
+@media (min-width: 992px) {
+  .order-lg-1 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+/* @media (min-width: 992px) {
+  .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+} */
 
 .section-2 .section-2-text {
   padding: 3rem;
@@ -235,4 +247,36 @@ header.masthead .overlay {
   margin-bottom: 18px;
   border: 0;
   border-top: 0.5px solid rgb(87, 87, 87);
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.3333%;
+    max-width: 33.333333%;
+  }
 }
